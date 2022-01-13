@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <img src="/img/breadlogo.jpeg" alt="">
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Services</a>
+                            </li>
+                            <li>
+                                <a href="">Protfolio</a>
+                            </li>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Contact</a>
+                            </li>
+                            <li>
+                                <a href="" class="active">Order</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <div class="background-img">
+                    <img src="/img/breads2.jpg" alt="">
+                </div>
+                <div class="container grid-2">
+                    <div class="column1">
+                        <h1 class="header-title">Xena Li</h1>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        <a href="#" class="btn">Odder</a>
+                    </div>
+                    <div class="column2">
+                        <img src="/img/Person1.png" class="person" data-speed="0.2" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="services section">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="What I Do" data-width="90px">Providng</h3>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, facere.</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="provide-image">
+                                <img src="/img/product/bread1.jpg" class="provide" alt="">
+                            </div>
+                            <h3 class="title-sm">Bread</h3>
+                            <p class="text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btn small">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="provide-image">
+                                <img src="/img/product/bread2.jpg" class="provide" alt="">
+                            </div>
+
+                            <h3 class="title-sm">Bread</h3>
+                            <p class="text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btn small">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="provide-image">
+                                <img src="/img/product/bread4.jpg" class="provide" alt="">
+                            </div>
+                            <h3 class="title-sm">Bread</h3>
+                            <p class="text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <a href="#" class="btn small">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo section">
+            <div class="background-bg">
+                <div class="overlay overlay-sm">
+                    <img src="./img/shapes//half-circle.png" class="shape half-circle1" alt="">
+                    <img src="./img/shapes//half-circle.png" class="shape half-circle2" alt="">
+                    <img src="./img/shapes//square.png" class="shape square" alt="">
+                    <img src="./img/shapes//wave.png" class="shape wave" alt="">
+                    <img src="./img/shapes//circle.png" class="shape circle" alt="">
+                    <img src="./img/shapes//triangle.png" class="shape triangle" alt="">
+                    <img src="./img/shapes//x.png" class="shape xshape" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="My work">Demostration</h3>
+                </div>
+
+                <div class="section-body">
+                    <div class="filter">
+                        <button class="filter-btn active" data-filter="*">All</button>
+                        <button class="filter-btn" data-filter=".bread">bread</button>
+                        <button class="filter-btn" data-filter=".snack">snack</button>
+                        <button class="filter-btn" data-filter=".cake">cake</button>
+                    </div>
+                    <div class="grid">
+                        <div class="grid-item bread">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread1.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item snack">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread2.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item bread">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread3.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item bread">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread4.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item cake">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread5.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item bread">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread6.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item bread">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread7.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item bread">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread8.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item snack">
+                            <div class="gallery-image">
+                                <img src="./img/product/bread9.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-demo">
+                        <a href="" class="btn">more demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="who am i">About Me</h3>
+                </div>
+                <div class="section-body grid-2">
+                    <div class="column-1">
+                        <h3 class="title-sm">Hello, I'm</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet quisquam culpa aliquam,
+                            voluptatibus quasi quia perspiciatis quos, aspernatur deserunt consectetur nihil natus quae
+                            dolore quo ut. Exercitationem, molestias quam!
+                        </p>
+                        <div class="skills">
+                            <div class="skill bread">
+                                <h3 class="skill-title">Bread</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill roll">
+                                <h3 class="skill-title">Roll</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill Cake">
+                                <h3 class="skill-title">Cake</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-2">
+                        <img src="./img/Person1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog section">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="Last News">My blog</h3>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit amet cum.
+                    </p>
+                </div>
+
+                <div class="blog-wrapper">
+                    <div class="blog-wrap">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="./img/blog1.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info">
+                                    <h5 class="blog-date">March, 19 2020</h5>
+                                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                                </div>
+
+                                <h3 class="title-sm">This is a short title</h3>
+                                <p class="blog-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aspernatur sunt quaerat!
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-wrap">
+                        <div class="blog-card">
+                            <div class="blog-image">
+
+                                <img src="./img/blog2.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info">
+                                    <h5 class="blog-date">August, 02 2020</h5>
+                                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                                </div>
+
+                                <h3 class="title-sm">This is a short title</h3>
+                                <p class="blog-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aspernatur sunt quaerat!
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-wrap">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="./img/blog3.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info">
+                                    <h5 class="blog-date">December, 12 2020</h5>
+                                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                                </div>
+
+                                <h3 class="title-sm">This is a short title</h3>
+                                <p class="blog-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aspernatur sunt quaerat!
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <h3 class="title">Get in touch</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet animi
+                            molestiae.
+                        </p>
+                        <div class="information-wrap">
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <p class="info-text">92 Cherry Drive Unimodale, NY 11553</p>
+                            </div>
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <p class="info-text">123321@123.com</p>
+                            </div>
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <p class="info-text">0455114495</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3 class="title">Contact me</h3>
+                        <div class="row">
+                            <input type="text" class="contact-input" placeholder="First Name">
+                            <input type="text" class="contact-input" placeholder="Last Name">
+                        </div>
+                        <div class="row">
+                            <input type="text" class="contact-input" placeholder="Phone">
+                            <input type="email" class="contact-input" placeholder="Email">
+                        </div>
+                        <div class="row">
+                            <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+                        </div>
+                        <a href="#" class="btn">Send</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="grid-4">
+                    <div class="grid-4-col footer-about">
+                        <h3 class="title-sm">About</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="grid-4-col footer-links">
+                        <h3 class="title-sm">Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-4-col footer-links">
+                        <h3 class="title-sm">Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Web Design</a>
+                            </li>
+                            <li>
+                                <a href="#">Web Dev</a>
+                            </li>
+                            <li>
+                                <a href="#">App Design</a>
+                            </li>
+                            <li>
+                                <a href="#">Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">UI Design</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-4-col footer-newstletter">
+                        <h3 class="title-sm">Subscribe</h3>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, quas.</p>
+                        <div class="footer-input-wrap">
+                            <input type="email" class="footer-input" placeholder="Email">
+                            <a href="#" class="input-arrow">
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-footer">
+                    <div class="copyright">
+                        <p class="text">
+                            Copyright&copy; 2021 Allright reverved | Made by <span>XXX</span>
+                        </p>
+                    </div>
+
+                    <div class="followme-wrap">
+                        <div class="followme">
+                            <h3>Follow me</h3>
+                            <span class="footer-line"></span>
+                            <div class="social-media">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                            <div class="back-btn-wrap">
+                                <a href="#" class="back-btn">
+                                    <i class="fas fa-chevron-up"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

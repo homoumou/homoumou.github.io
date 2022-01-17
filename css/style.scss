@@ -262,8 +262,11 @@ header {
         }
       }
     }
-    .links {
-      transform: translateX(0);
+    .container {
+      .links {
+        transform: translateX(0);
+      }
+
     }
   }
 
@@ -1336,26 +1339,29 @@ footer {
   //header
   header {
     nav {
-      .links {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        right: 0;
-        background-color: #252525;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        transform: translateX(100%);
-        transition: 0.5s;
-        z-index: 99;
-        ul {
-          flex-direction: column;
-        }
-        a {
-          color: $main-color !important;
-          .active {
+      .container {
+        .links {
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          top: 0;
+          right: 0;
+          background-color: #252525;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          transform: translateX(100%);
+          transition: 0.5s;
+          z-index: 99;
+          ul {
+            flex-direction: column;
+          }
+          a {
+            color: $main-color !important;
+          }
+          a.active {
+            color: $light-one !important;
             margin-left: 0;
             margin: 0.5rem 0;
           }
